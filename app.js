@@ -38,7 +38,7 @@ app.use(session({
 //登陆
 app.post('/api/login', async (req, res) => {
   const { userName, password } = req.body
-  if (userName == 'lurenb' && password == '1283241215') {
+  if (userName == '123123' && password == '123123') {
     req.session.username = userName
     res.send({ error: 0 })
   } else {
